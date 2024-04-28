@@ -1,49 +1,11 @@
-#name{
-    font-family: monospace;
-    font-size: 3rem;
-    padding-top: 1in;
-}
-h2{
-    font-weight: bold;
-    font-size: 3em;
-    font-family: monospace;
-    color:rgb(88, 145, 90);
-}
-
-body{
-    height: 100vh;
-    background-color:rgb(186, 233, 205);
-}
-#skills ul li{
+#navigation ul{
+    display:flex;
+    gap: 4em;
+    padding-bottom: 0;
     list-style: none;
-    display:flexbox;
-    margin: 0.5em;
-    background-color:rgb(88, 136, 82);
-    color:whitesmoke;
-    padding: 0.5em;
-    border-radius: 0.6em;
-    border-color:rgb(39, 69, 47);
-    border-style:groove;
 }
-#experience ul li{
-    list-style: none;
-    display:flexbox;
-    margin: 0.5em;
-    background-color:rgb(88, 136, 82);
-    color:whitesmoke;
-    padding: 0.5em;
-    border-radius: 0.6em;
-    border-color:rgb(39, 69, 47);
-    border-style:groove;
-}
-#connect ul li {
-    list-style: none;
-    display:flexbox;
-    margin: 0.5em;
-    background-color:rgb(88, 136, 82);
-    color:whitesmoke;
-    padding: 0.5em;
-    border-radius: 0.6em;
-    border-color:rgb(39, 69, 47);
-    border-style:groove;
+#navigation {
+    position:fixed;
+    top: 0;
+    background-color: aquamarine;
 }
